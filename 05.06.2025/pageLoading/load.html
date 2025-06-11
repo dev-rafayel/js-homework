@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework</title>
+</head>
+
+<body>
+    <p id="change">Hello world</p>
+    
+    <script>
+        const text = document.getElementById("change");
+
+        text.addEventListener("loadstart", function (e) 
+        {
+            text.textContent = "Hello JavaScript";
+        });
+    </script>
+</body>
+
+</html>
